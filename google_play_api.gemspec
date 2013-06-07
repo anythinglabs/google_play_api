@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rob Heittman"]
   spec.email         = ["rob.heittman@solertium.com"]
   spec.description   = %q{Access Google Play API via protobufs}
-  spec.homepage      = "https://www.github.com/appygram/google_play_api"
+  spec.homepage      = "https://www.github.com/anythinglabs/google_play_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

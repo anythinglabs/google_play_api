@@ -1,6 +1,11 @@
 # GooglePlayApi
 
-TODO: Write a gem description
+This Google Play API gem is inspired by the desire to have
+something like [Supermarket](https://github.com/jberkel/supermarket)
+that doesn't require Java JARs under the hood. This incarnation
+uses [LocalShred's protobuf implementation](https://github.com/localshred/protobuf)
+and the .proto definitions for Google Play discovered on the
+[android-market-api Google Code project](https://code.google.com/p/android-market-api)
 
 ## Installation
 
@@ -18,7 +23,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem was created for use by the [Appygram](https://www.appygram.com)
+service and so it currently prioritizes the things that Appygram cares
+about, like capturing reviews. Pull requests are welcome to expand on
+the features.
 
 ## Contributing
 
