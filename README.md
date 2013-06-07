@@ -5,7 +5,7 @@ something like [Supermarket](https://github.com/jberkel/supermarket)
 that doesn't require Java JARs under the hood. This incarnation
 uses [LocalShred's protobuf implementation](https://github.com/localshred/protobuf)
 and the .proto definitions for Google Play discovered on the
-[android-market-api Google Code project](https://code.google.com/p/android-market-api)
+[android-market-api Google Code project](https://code.google.com/p/android-market-api).
 
 ## Installation
 
