@@ -28,6 +28,15 @@ service and so it currently prioritizes the things that Appygram cares
 about, like capturing reviews. Pull requests are welcome to expand on
 the features.
 
+## Caveats
+
+The protobuf gem currently requires binary protobuf 1.4.2 installed (brew
+install protobuf, sudo apt-get install protobuf) and is not yet
+compatible with 1.5. Homebrew at least will try to install 1.5.
+Workaround: brew uninstall protobuf; brew versions protobuf; then run
+the git command specified in the "brew versions" output to revert the
+formula to 1.4.2; brew install protobuf.
+
 ## Contributing
 
 1. Fork it
